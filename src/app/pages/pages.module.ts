@@ -9,6 +9,7 @@ import { NotfountComponent } from './notfount/notfount.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Grafica1Component } from './grafica1/grafica1.component';
 import { ComponentsModule } from '../components/components.module';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { ComponentsModule } from '../components/components.module';
 		NotfountComponent,
 		ProgressComponent,
 		Grafica1Component,
+		AccountSettingsComponent,
 	],
 	imports: [
 		CommonModule,
@@ -31,7 +33,8 @@ import { ComponentsModule } from '../components/components.module';
 		DashboardComponent,
 		NotfountComponent,
 		ProgressComponent,
-		Grafica1Component
+		Grafica1Component,
+		AccountSettingsComponent
 	]
 })
 export class PagesModule { }
